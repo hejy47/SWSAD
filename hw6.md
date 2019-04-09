@@ -75,11 +75,11 @@
 
 	1. 携程定旅馆
 
-		![week6_携程](./Pictures/week6_携程.png)
+		![week6_携程](/Pictures/week6_xiecheng.png)
 
 	2. 星火英语背单词
 
-		![week6_星火英语背单词](./Pictures/week6_星火英语背单词.png)
+		![week6_星火英语背单词](/Pictures/week6_xinghuoyingyu.png)
 
 - 然后，回答下列问题：
 
