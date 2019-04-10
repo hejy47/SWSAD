@@ -2,63 +2,59 @@
 
 1. 用例的概念
 
-  > Use case is a collection of related success and failure scenarios that
-  > describe an actor using a system to support a goal.
+  	> Use case is a collection of related success and failure scenarios that describe an actor using a system to support a goal.
 
-  用例是描绘参与者使用系统去完成一个目标的相关成功和失败场景的集合。
+  	用例是描绘参与者使用系统去完成一个目标的相关成功和失败场景的集合。
 
 2. 用例和场景的关系？什么是主场景或happy path？
 
-  > Scenario is a specific sequence of actions and
-  > interactions between actors
-  > and the system.
+  	> Scenario is a specific sequence of actions and interactions between actors and the system.
 
-  由用例和场景的定义可知：用例是场景的集合，场景是一个用例实例。
+  	由用例和场景的定义可知：用例是场景的集合，场景是一个用例实例。
 
-  > The primary scenario corresponds to
-  > the main system interactions, usually the ‘success’ scenario.
+  	> The primary scenario corresponds to the main system interactions, usually the ‘success’ scenario.
 
-  主场景是最常用，直接地实现用户目标的故事。
+  	主场景是最常用，直接地实现用户目标的故事。
 
 3. 用例有哪些形式？
 
-  一共有三种格式：
+  	一共有三种格式：
 
-  - 简便格式（Brief）
-  	- 通常是主要成功场景的简短一段总结。
-  	- 用于在早期的需求分析中，快速了解主题和范围。可能只需要几分钟来创建。
-  - 因果格式（Casual）
-  	- 非正式的段落格式。包含多种场景的多个段落。
-  - 完整格式（Fully）
-  	- 所有的步骤和变化都写得很详细，并由支持部分，如先决条件和成功保证。
+  	- 简便格式（Brief）
+  		- 通常是主要成功场景的简短一段总结。
+  		- 用于在早期的需求分析中，快速了解主题和范围。可能只需要几分钟来创建。
+  	- 因果格式（Casual）
+  		- 非正式的段落格式。包含多种场景的多个段落。
+  	- 完整格式（Fully）
+  		- 所有的步骤和变化都写得很详细，并由支持部分，如先决条件和成功保证。
 
 4. 对于复杂业务，为什么编制完整用例非常难？
 
-  用例的格式导致编制复杂业务的完整用例非常难，因为这需要花费大量的时间编写，而且这些用例没有增加或增加很少的价值，并会导致大量的返工。
+  	用例的格式导致编制复杂业务的完整用例非常难，因为这需要花费大量的时间编写，而且这些用例没有增加或增加很少的价值，并会导致大量的返工。
 
 5. 什么是用例图？
 
-  最简单的用例图是用户与系统交互的表示，它显示了用户与用户所涉及的不同用例之间的关系。用例图可以识别系统的不同类型的用户和不同的用例，并且常常伴随着其他类型的图。用例要么用圆圈表示，要么用椭圆表示。
+  	最简单的用例图是用户与系统交互的表示，它显示了用户与用户所涉及的不同用例之间的关系。用例图可以识别系统的不同类型的用户和不同的用例，并且常常伴随着其他类型的图。用例要么用圆圈表示，要么用椭圆表示。
 
-  用例图是系统上下文图，它显示一个系统的边界，系统外部是什么，以及如何使用它。用例图作为一个交互工具去总结一个系统和它的参与者的行为。
+  	用例图是系统上下文图，它显示一个系统的边界，系统外部是什么，以及如何使用它。用例图作为一个交互工具去总结一个系统和它的参与者的行为。
 
 6. 用例图的基本符号与元素？
 
-  - 基本符号：System框、actor符号、Neighboursystem框、<\<include>> 箭头、<\<extend>> 箭头、无方向连线
-  - 元素：参与者Actors、用例Use Case、用例之间的关系（包含关系（Include）、泛化关系（Generalization）、关联关系（Association）、扩展/延伸关系（Extend））
+  	- 基本符号：System框、actor符号、Neighboursystem框、<\<include>> 箭头、<\<extend>> 箭头、无方向连线
+  	- 元素：参与者Actors、用例Use Case、用例之间的关系（包含关系（Include）、泛化关系（Generalization）、关联关系（Association）、扩展/延伸关系（Extend））
 
 7. 用例图的画法与步骤
 
-  1. 确定研讨的系统
-  	- 使用用例图 System框 表示一个待研究的系统
-  	- 正确命名系统或子系统
-  2. 识别 Actors
-  	- 识别使用系统的主要参与者（primary actors）/角色(roles)
-  	- 识别系统依赖的外部系统
-  3. 识别用例（服务）
-  	- 识别用户级别用例（user goal level）
-  	- 识别子功能级别的用例（sub function level）
-  	- 建立 Actor 和 Use Cases 之间的关联
+  	1. 确定研讨的系统
+  		- 使用用例图 System框 表示一个待研究的系统
+  		- 正确命名系统或子系统
+  	2. 识别 Actors
+  		- 识别使用系统的主要参与者（primary actors）/角色(roles)
+  		- 识别系统依赖的外部系统
+  	3. 识别用例（服务）
+  		- 识别用户级别用例（user goal level）
+  		- 识别子功能级别的用例（sub function level）
+  		- 建立 Actor 和 Use Cases 之间的关联
 
 8. 用例图给利益相关人与开发者的价值有哪些？
 
