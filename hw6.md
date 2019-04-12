@@ -2,19 +2,19 @@
 
 1. 用例的概念
 
-  	> Use case is a collection of related success and failure scenarios that describe an actor using a system to support a goal.
+	> Use case is a collection of related success and failure scenarios that describe an actor using a system to support a goal.
 
-  	用例是描绘参与者使用系统去完成一个目标的相关成功和失败场景的集合。
+	用例是描绘参与者使用系统去完成一个目标的相关成功和失败场景的集合。
 
 2. 用例和场景的关系？什么是主场景或happy path？
 
-  	> Scenario is a specific sequence of actions and interactions between actors and the system.
+	> Scenario is a specific sequence of actions and interactions between actors and the system.
 
-  	由用例和场景的定义可知：用例是场景的集合，场景是一个用例实例。
+	由用例和场景的定义可知：用例是场景的集合，场景是一个用例实例。
 
-  	> The primary scenario corresponds to the main system interactions, usually the ‘success’ scenario.
+	> The primary scenario corresponds to the main system interactions, usually the ‘success’ scenario.
 
-  	主场景是最常用，直接地实现用户目标的故事。
+	主场景是最常用，直接地实现用户目标的故事。
 
 3. 用例有哪些形式？
 
