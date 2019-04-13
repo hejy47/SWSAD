@@ -42,7 +42,7 @@
 
 6. 用例图的基本符号与元素？
 
-      - 基本符号：System框、actor符号、Neighboursystem框、<\<include>> 箭头、<\<extend>> 箭头、无方向连线
+      - 基本符号：System框、actor符号、Neighboursystem框、\<\<include\>\> 箭头、\<\<extend\>\> 箭头、无方向连线
       - 元素：参与者Actors、用例Use Case、用例之间的关系（包含关系（Include）、泛化关系（Generalization）、关联关系（Association）、扩展/延伸关系（Extend））
 
 7. 用例图的画法与步骤
