@@ -24,14 +24,20 @@
 
 	traveler(name,email)
 
-  - 对payment 用例开展领域建模
+- 对payment 用例开展领域建模
 
-    ![week9_payment](.\Pictures\week9_payment.png)
-    
+  ![week9_payment](.\Pictures\week9_payment.png)
+  
   - 数据建模
-
-  	
+  
+  	Reservation(rooms, check in date,check out date)
+  
+  	customer(name,address,city,country,postcode,tel)
+  
+  	payment(item details, total price)
+  
+  	credit card(type, bank, number, security code, expiry date)
 
 2. 使用 UML State Model，对每个订单对象生命周期建模
 
-	![week9_lifeccycle](.\Pictures\week9_lifeccycle.png)
+	![week9_lifecycle](.\Pictures\week9_lifecycle.png)
